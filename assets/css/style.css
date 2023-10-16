@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Font;
+  src: url(/assets/fonts/vazir-font-v18.0.0/Vazir.eot) format("eot"),
+    url(/assets/fonts/vazir-font-v18.0.0/Vazir.woff) format("woff"),
+    url(/assets/fonts/vazir-font-v18.0.0/Vazir.ttf) format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Font;
+}
+
+.container-lg {
+  width: 90%;
+}
+
+/* Start Header */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.dropdown-megamenu:hover>.megaMenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.megaMenu {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  border-radius: 10px;
+  color: black;
+}
+
+.megaMenu>li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 40px;
+}
+
+.megaMenu>li>ul {
+  width: 25%;
+  margin: 10px;
+}
+
+.megaMenu>li>ul>li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.megaMenu>li>ul>li:hover {
+  cursor: pointer;
+}
+
+.sub-mega-menu {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-desc {
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 250px auto;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 15px;
+
+  >p {
+    font-size: 20px;
+  }
+}
+
+/* End Header */
+
+/* Start About */
+#about {
+  width: 90%;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.img-about {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+
+}
+
+/* End About */
+
+/* Start apple-laptop */
+.laptop {
+  height: 50vh;
+  width: 90%;
+  border-radius: 15px;
+
+  background-image: url(/assets/images/apple-laptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.laptop-desc {
+  visibility: hidden;
+  transition: .7s;
+}
+
+.laptop:hover>.laptop-desc {
+  visibility: visible;
+
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* End apple-laptop */
