@@ -64,7 +64,7 @@ header {
   background-image: url(/assets/images/Profile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 90vh;
+  border-radius: 900px;
 }
 
 .header-title {
