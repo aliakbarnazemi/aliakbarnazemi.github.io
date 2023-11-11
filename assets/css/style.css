@@ -1,5 +1,8 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   animation: body1 .8s alternate;
   background-color: #1b1f24;
 }
