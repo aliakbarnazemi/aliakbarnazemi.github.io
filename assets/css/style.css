@@ -1,10 +1,10 @@
 body {
+  animation: body1 .8s alternate;
+  background-color: #1b1f24;
   font-family: 'IBM Plex Sans', sans-serif;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-family: 'Inter', sans-serif;
   font-family: 'Roboto', sans-serif;
-  animation: body1 .8s alternate;
-  background-color: #1b1f24;
 }
 
 @media screen and (max-width:576px) {
@@ -67,7 +67,7 @@ header {
   background-image: url(/assets/images/Profile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 900px;
+  border-radius: 90vh;
 }
 
 .header-title {
@@ -295,6 +295,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 100px auto;
+
   >.container {
     >h3 {
       font-size: 50px;
@@ -335,7 +336,7 @@ header {
 }
 
 @media screen and (max-width:992px) {
-  .story-img{
+  .story-img {
     display: none;
   }
 }
@@ -412,5 +413,4 @@ header {
   margin-top: 100px;
 }
 
-@media screen and (max-width:1400px) {
-}
+@media screen and (max-width:1400px) {}
