@@ -13,6 +13,13 @@ body {
   }
 }
 
+.container-custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
 .card {
   background-color: #393E46;
   border: 0px solid white;
@@ -275,7 +282,28 @@ header {
   }
 }
 
-/* Start About */
+#About {
+  height: auto;
+  width: 100%;
+  background-color: #212529;
+  transition: 1s;
+
+  >.overlay {
+    >.container {
+      margin-top: 10px;
+    }
+  }
+}
+
+.about-img{
+  border-radius: 16px;
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/Profile-About.jpg);
+}
+
+/*
 #About {
   height: auto;
   width: 100%;
@@ -341,7 +369,7 @@ header {
   }
 }
 
-/* End About */
+*/
 
 /* Start Skills */
 
