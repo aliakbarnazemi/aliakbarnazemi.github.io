@@ -60,11 +60,11 @@ header {
 
 .header-img {
   width: 80%;
-  height: 65vh;
+  height: 70vh;
   background-image: url(/assets/images/Profile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 24px;
+  border-radius: 90vh;
 }
 
 .header-title {
