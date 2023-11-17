@@ -375,7 +375,7 @@ header {
 
 #skills {
   margin-top: 200px;
-  height: 120vh;
+  height: auto;
 }
 
 .skill-button {
