@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Start Header */
+.navbar {
+    width: 100%;
+    height: 60px;
+}
+
+.nav-brand a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #fff
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin: 10px 15px;
+}
+
+.header-content {
+    margin-top: 50px;
+}
+
+.header-text {
+    line-height: 2;
+}
+
+.social-media {
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(15px);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.social-media-link {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >i {
+        margin: 15px auto;
+    }
+
+    >svg {
+        margin: 12px auto;
+        fill: #fff;
+        width: 30px;
+    }
+}
+
+/* End Header */
+
+.sidebar {
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
+    /* Fixed sidebar */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    /* Full height */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    backdrop-filter: blur(15px);
+}
+
+.card-statistics {
+    height: 200px;
+}
+
+.card-tool {
+    height: 150px;
+}
+
+.card-contact {
+    height: 200px;
+}
+
+.nav-link-brand {
+    cursor: pointer;
+    color: #fff;
+    height: 40px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    z-index: 1000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(15px);
+    transition: 0.4s;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-close {
+    height: 60px;
+    width: 60px;
+    color: #f1f1f1;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    >i{
+        height: 60px;
+        width: 60px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
+
+.nav-link {
+    padding-top: 15px;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 70px;
+    transition: 0.4s;
+    background-color: transparent;
+
+    &:hover {
+        background-color: white;
+
+        >.nav-link {
+            color: black;
+        }
+    }
+}
+
+.menu-title {
+    height: 100px;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.more{
+    cursor: pointer;
+    display: flex;
+    direction: rtl;
+
+    >i{
+        padding-top: 2px;
+        padding-left: 4px;
+    }
+}
+
+li{
+    list-style-type: none;
+    height: 35px;
+}
